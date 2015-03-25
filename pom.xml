@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+		<groupId>com.pearson.qglobal.api</groupId>
+		<artifactId>qglobal-api-WMS-IV</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+		<packaging>pom</packaging>
+	   <name>QGlobal API - WMS-IV</name>
+	<ciManagement>            
+		<system>Jenkins</system>		
+		<url>http://releng.ic.ncs.com/jenkins/view/QGlobal/view/QGlobal%20Apps/view/Platform/job/QGlobal%20Platform_API%20-%20WMS-IV</url>	             
+	</ciManagement>	
+	
+<scm>
+		 		  <connection>scm:git:ssh://git@devops-tools.pearson.com/qgapi/WMS-IV.git</connection>	
+		<developerConnection>scm:git:ssh://git@devops-tools.pearson.com/qgapi/WMS-IV.git</developerConnection>
+		<url>https://devops-tools.pearson.com/stash/scm/qgapi/WMS-IV.git</url>
+
+
+    <tag>HEAD</tag>
+  </scm>
+  
+	<modules>
+		<module>WMS-IV</module>
+	    <module>WMS-IV-dd</module>
+	</modules>
+
+	
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				
+				<artifactId>maven-release-plugin</artifactId>
+				<version>2.4</version>
+				<configuration>
+					<preparationGoals>clean install</preparationGoals>
+				</configuration>
+			</plugin>
+		</plugins>
+	</build>
+	<distributionManagement>
+		<repository>
+			<id>repo1.ic.ncs.com</id>
+			<name>Pearson Repository</name>
+			<url>http://repo1.ic.ncs.com/nexus/content/repositories/pearson-repo</url>
+		</repository>
+		<snapshotRepository>
+			<id>PearsonSnapshot</id>
+			<name>PearsonSnapshot</name>
+			<url>http://repo1.ic.ncs.com/nexus/content/repositories/PearsonSnapshot</url>
+			<uniqueVersion>false</uniqueVersion>
+		</snapshotRepository>
+	</distributionManagement>
+</project>

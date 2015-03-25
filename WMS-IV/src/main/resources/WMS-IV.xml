@@ -1,0 +1,2520 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns1:API_Validator ns1:Form_Acronym="text" xsi:schemaLocation="http://com.pearson.qglobal.qgml.schema schema-v2.0.xsd" xmlns:ns1="http://com.pearson.qglobal.qgml.schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ns1:API_Responses>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_la_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="50" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_lb_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="50" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_lbr_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="30" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_vpa_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="56" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_vpb_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="14" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_vpbr_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="40" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_vpbw_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="28" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_da_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="120" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_dac_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="48" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_das_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="24" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_db_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="120" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_dbc_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="48" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_dbs_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="24" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_dbr_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="24" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_va_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="43" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_vb_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="43" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_vbr_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="7" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_vbc_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="43" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_sa_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="24" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_ss_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="50" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_lga_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="48" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_lgb_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="16" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_naa_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="40" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_npa_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="80" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_nta_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="90" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_nab_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="40" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_na_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="40" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_npb_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="80" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_ntb_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="30" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_np_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="80" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_ra16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rb16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rc16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_da_rd16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_ra16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rb16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rc16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd1" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd2" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd3" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd4" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd5" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd6" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd7" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd8" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd9" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd10" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd11" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd12" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd13" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd14" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd15" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.wms4_db_rd16" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_cvlt1_ts" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="95" ns1:range_min="5" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_cvlt2_ts" dataType="STRING" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		<ns1:acceptableValue>17</ns1:acceptableValue>
+		<ns1:acceptableValue>18</ns1:acceptableValue>
+		<ns1:acceptableValue>19</ns1:acceptableValue>
+		<ns1:acceptableValue>20</ns1:acceptableValue>
+		<ns1:acceptableValue>21</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.Examiner" dataType="STRING" ns1:isRequired="false" ns1:validationType="FIELD_LENGTH" >
+		<ns1:FieldLength maxLength="50" ns1:minLength="0" >
+		</ns1:FieldLength>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.wms4_config" dataType="INTEGER" ns1:isRequired="true" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.wms4_config_lmvr" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.eth" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>99</ns1:acceptableValue>
+		<ns1:acceptableValue>77</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.eth_Other" dataType="STRING" ns1:isRequired="false" ns1:validationType="FIELD_LENGTH" >
+		<ns1:FieldLength maxLength="50" ns1:minLength="0" >
+		</ns1:FieldLength>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.lang_home" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		<ns1:acceptableValue>17</ns1:acceptableValue>
+		<ns1:acceptableValue>18</ns1:acceptableValue>
+		<ns1:acceptableValue>19</ns1:acceptableValue>
+		<ns1:acceptableValue>77</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.lang_homeOther" dataType="STRING" ns1:isRequired="false" ns1:validationType="FIELD_LENGTH" >
+		<ns1:FieldLength maxLength="50" ns1:minLength="0" >
+		</ns1:FieldLength>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.hand" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.Education" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		<ns1:acceptableValue>4</ns1:acceptableValue>
+		<ns1:acceptableValue>5</ns1:acceptableValue>
+		<ns1:acceptableValue>6</ns1:acceptableValue>
+		<ns1:acceptableValue>7</ns1:acceptableValue>
+		<ns1:acceptableValue>8</ns1:acceptableValue>
+		<ns1:acceptableValue>9</ns1:acceptableValue>
+		<ns1:acceptableValue>10</ns1:acceptableValue>
+		<ns1:acceptableValue>11</ns1:acceptableValue>
+		<ns1:acceptableValue>12</ns1:acceptableValue>
+		<ns1:acceptableValue>13</ns1:acceptableValue>
+		<ns1:acceptableValue>14</ns1:acceptableValue>
+		<ns1:acceptableValue>15</ns1:acceptableValue>
+		<ns1:acceptableValue>16</ns1:acceptableValue>
+		<ns1:acceptableValue>17</ns1:acceptableValue>
+		<ns1:acceptableValue>18</ns1:acceptableValue>
+		<ns1:acceptableValue>19</ns1:acceptableValue>
+		<ns1:acceptableValue>20</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.retest" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Demographic.wms4_comments" dataType="STRING" ns1:isRequired="false" ns1:validationType="FIELD_LENGTH" >
+		<ns1:FieldLength maxLength="50" ns1:minLength="0" >
+		</ns1:FieldLength>
+	</ns1:apiVariableDefinition>
+</ns1:API_Responses>
+<ns1:API_ReportOptions>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_cstable" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_indexscoretable" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_indexscoreprofile" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_altindexscoretable" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_altindexdifference" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_altindexscoreprofile" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_subtestscoretable" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_subtestscoreprofile" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_summaryami" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_summaryvmi" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_subtestmeandiffami" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_subtestmeandiffvmi" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_subtestmeandiffimi" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_subtestmeandiffdmi" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_subtestdiscrepcompar" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_suppsubtestdiscrepcompar" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_contrastscoreslm" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_contrastscoresvp" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_contrastscoresde" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_contrastscoresvr" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_contrastscoresindex" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_rawscoretable" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_conflevel" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_siglevel_submn" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_siglevel_sub" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_siglevel_comp" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_sub" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_wms4_abi_stype" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		<ns1:acceptableValue>3</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_wms4_siglevel" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_wms4_method" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		<ns1:acceptableValue>2</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_wms4_abi_score" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="160" ns1:range_min="0" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.AMD_AbilityTest" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="false" ns1:strict="true" ns1:variableName="Assessment.AMD_AbilityDate" dataType="DATE" ns1:isRequired="false" ns1:validationType="FIELD_LENGTH" >
+		<ns1:FieldLength maxLength="50" ns1:minLength="0" >
+		</ns1:FieldLength>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.Include_AMD" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.Include_AMD_Contrast" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+</ns1:API_ReportOptions>
+<ns1:API_ExportOptions>
+</ns1:API_ExportOptions>
+</ns1:API_Validator>
