@@ -2344,7 +2344,19 @@
 		<ns1:acceptableValue>1</ns1:acceptableValue>
 		</ns1:acceptableValues>
 	</ns1:apiVariableDefinition>
-	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_altindexscoreprofile" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_suppsubtestss" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_auditoryvisualpro" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
+		<ns1:acceptableValues>
+		<ns1:acceptableValue>0</ns1:acceptableValue>
+		<ns1:acceptableValue>1</ns1:acceptableValue>
+		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.include_suppsubtestdiscflex" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
 		<ns1:acceptableValues>
 		<ns1:acceptableValue>0</ns1:acceptableValue>
 		<ns1:acceptableValue>1</ns1:acceptableValue>
@@ -2475,6 +2487,22 @@
 		<ns1:acceptableValue>0</ns1:acceptableValue>
 		<ns1:acceptableValue>1</ns1:acceptableValue>
 		</ns1:acceptableValues>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_gai_ss" dataType="integer" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="160" ns1:range_min="40" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_vci_ss" dataType="integer" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="150" ns1:range_min="50" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_pri_ss" dataType="integer" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="150" ns1:range_min="50" >
+		</ns1:Range>
+	</ns1:apiVariableDefinition>
+	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_wmi_ss" dataType="integer" ns1:isRequired="false" ns1:validationType="RANGE" >
+		<ns1:Range ns1:range_max="150" ns1:range_min="50" >
+		</ns1:Range>
 	</ns1:apiVariableDefinition>
 	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wais4_wms4_abi_stype" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="SET_VALUES" >
 		<ns1:acceptableValues>
