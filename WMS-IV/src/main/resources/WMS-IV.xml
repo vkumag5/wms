@@ -6,7 +6,7 @@
 		</ns1:Range>
 	</ns1:apiVariableDefinition>
 	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_la_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
-		<ns1:Range ns1:range_max="50" ns1:range_min="0" >
+		<ns1:Range ns1:range_max="53" ns1:range_min="0" >
 		</ns1:Range>
 	</ns1:apiVariableDefinition>
 	<ns1:apiVariableDefinition ns1:validateField="true" ns1:strict="true" ns1:variableName="Assessment.wms4_lb_raw" dataType="INTEGER" ns1:isRequired="false" ns1:validationType="RANGE" >
