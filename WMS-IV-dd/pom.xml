@@ -17,8 +17,8 @@
 	</ciManagement>	
 	
 <scm>
-		 		  <connection>scm:git:ssh://git@devops-tools.pearson.com/qgapi/WMS-IV.git</connection>	
-		<developerConnection>scm:git:ssh://git@devops-tools.pearson.com/qgapi/WMS-IV.git</developerConnection>
+		 		  <connection>scm:git:ssh://git@bitbucket.pearson.com/qgapi/wms-iv.git</connection>	
+		<developerConnection>scm:git:ssh://git@bitbucket.pearson.com/qgapi/wms-iv.git</developerConnection>
 		<url>https://devops-tools.pearson.com/stash/scm/qgapi/WMS-IV.git</url>
 
 
