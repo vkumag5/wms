@@ -17,8 +17,8 @@
 	</ciManagement>	
 	
 <scm>
-		 		  <connection>scm:git:https://github.com/vkumag5/wms.git</connection>	
-		<developerConnection>scm:git:https://github.com/vkumag5/wms.git</developerConnection>
+		 		  <connection>sscm:git:ssh://git@github.com:vkumag5/wms.git</connection>	
+		<developerConnection>scm:git:ssh://git@github.com:vkumag5/wms.git</developerConnection>
 		<url>https://bitbucket.pearson.com/projects/QGAPI/repos/.git</url>
 
 
