@@ -3,14 +3,14 @@
 	<modelVersion>4.0.0</modelVersion>
 	<parent>
 		<groupId>com.pearson.qglobal.api</groupId>
-		<artifactId>qglobal-api-WMS-IV</artifactId>
+		<artifactId>qglobal-api-TST</artifactId>
 		<version>1.0.7-SNAPSHOT</version>
 	</parent>
 
 
 	
-	<artifactId>WMS-IV</artifactId>
+	<artifactId>TST</artifactId>
          <packaging>jar</packaging>
-        <name>WMS-IV</name>
+        <name>TST</name>
 	
 </project>
