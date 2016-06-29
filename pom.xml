@@ -13,8 +13,8 @@
 	</ciManagement>	
 	
 <scm>
-		 		  <connection>http://github.com/vkumag5/wms.git</connection>	
-		<developerConnection>http://github.com/vkumag5/wms.git</developerConnection>
+		 		  <connection>http://github.com/vkumag5/wms/</connection>	
+		<developerConnection>http://github.com/vkumag5/wms/</developerConnection>
 		<url>https://bitbucket.pearson.com/projects/QGAPI/repos/wms-iv.git</url>
 
 
